@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333;
+    color: #efeff7;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.whatzapp{
+    position: absolute;
+    width: 50px;
+    margin: 10px 0 0 100px ;
+    cursor: pointer;
+
+}
+.facebook{
+    position: absolute;
+    width: 70px;
+    cursor: pointer;
+}
+.instagram{
+    position: absolute;
+    width: 70px;
+    margin: 1px 0 0 180px;
+    cursor: pointer;
+}
+ 
+.solar{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    width: 1300px;
+    height: 450px;
+    margin: -450px 0 0 -650px
+}
+
+.eletrica{
+    width: 350px;
+    margin: 400px 0 0 320px;
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+
+.eletricista{
+    width: 150px;
+    display: grid;
+    position: absolute;
+    margin-top: 350px;
+    mix-blend-mode: multiply;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+   
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
+
+.service {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.service h3 {
+    color: #333;
+}
+
+.section h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 30px;
+}
+
+form button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
