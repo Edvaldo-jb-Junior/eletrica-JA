@@ -1,4 +1,4 @@
-body {
+* {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,6 +7,10 @@ body {
 }
 
 .header {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
     background-color: #333;
     color: #efeff7;
     padding: 1rem 0;
@@ -18,18 +22,21 @@ body {
 }
 
 .whatzapp{
+    display: flex;
     position: absolute;
     width: 50px;
     margin: 10px 0 0 100px ;
     cursor: pointer;
-
 }
+
 .facebook{
+    display: flex;
     position: absolute;
     width: 70px;
     cursor: pointer;
 }
 .instagram{
+    dispaly: flex;
     position: absolute;
     width: 70px;
     margin: 1px 0 0 180px;
@@ -37,26 +44,30 @@ body {
 }
  
 .solar{
+    display: flex;
     position: absolute;
     z-index: -1;
     opacity: 0.4;
-    width: 1300px;
-    height: 450px;
-    margin: -450px 0 0 -650px
+    width: 96vw;
+    height: 50vh;
+    margin: -110px;
+
 }
 
 .eletrica{
+    display: flex;
     width: 350px;
-    margin: 400px 0 0 320px;
+    height: 380px;
+    margin: 500px 0 0 920px;
     position: absolute;
     mix-blend-mode: multiply;
 }
 
 .eletricista{
+    display: flex;
     width: 150px;
-    display: grid;
     position: absolute;
-    margin-top: 350px;
+    margin: 550px 0;
     mix-blend-mode: multiply;
 }
 
@@ -85,10 +96,16 @@ body {
    
 }
 
+.section h2 {
+    margin: 130px 0 20 0;
+
+}
+
 .services-container {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;    
+    flex-wrap: wrap; 
+ 
 }
 
 .service {
@@ -148,4 +165,38 @@ form button {
 
 form button:hover {
     background: #555;
+}
+@media(max-width: 1100px) {
+    .solar {
+    
+    }
+}
+
+@media(max-width: 450px){
+    .solar {
+        height: 70vh;
+        width: 96vw;
+        margin: -100px 0 0 -60px;
+    }
+    .service {
+        width: 90vw;
+        margin-left: -50px;
+
+    }
+    .eletricista {
+        width: 100px;
+        margin: 420px 0 0 8px;
+    }
+    .eletrica {
+        display: none;
+    }
+    .services-container{ 
+        width: 98vw;
+    }
+    .section {
+        width: 96vw;
+    }
+    .foter {
+        width: 100vw;
+    }
 }
