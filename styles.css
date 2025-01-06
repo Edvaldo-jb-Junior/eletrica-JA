@@ -176,9 +176,17 @@ form button {
 form button:hover {
     background: #555;
 }
+@media (max-width: 1300px){
+    .solar{
+        height: 75vh;
+    }
+    .eletrica{
+        margin-left: 900px;
+    }
+}
 @media (max-width: 1100px) {
     .solar {
-     height: 37vh;
+     height: 82vh;
     }
     .service{
         width: 25vh;
@@ -195,6 +203,40 @@ form button:hover {
     }
     .rede-sociais{
         margin-top: 35px;
+    }
+}
+@media(max-width: 920px){
+    .solar{
+        height: 38vh;
+    }
+}
+@media (max-width: 860px){
+    .solar{
+        height: 42vh;
+    }
+}
+@media (max-width: 820px){
+    .solar{
+        height: 48vh;
+    }
+    .sobre{
+        margin-bottom: 50px;
+    }
+    .eletricista{
+        width: 100px;
+        margin-top: 200px;
+    }
+}
+@media (max-width: 770px){
+    .solar{
+        height: 55vh;
+    }
+    .sobre{
+        margin-bottom: 50px;
+    }
+    .eletricista{
+        width: 100px;
+        margin-top: 200px;
     }
 }
 @media (max-width: 550px){
@@ -253,5 +295,10 @@ form button:hover {
     }
     .eletricista{
         margin-top: 300px;
+    }
+}
+@media (max-width: 350px){
+    .solar{
+        height: 92vh;
     }
 }
