@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elétrica JP</title>
+    <title>JP Eletro Solar</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    
+
     <header class="header">
-        <h1>Elétrica J.P</h1>
+        <h1> JP Eletro Solar</h1>
         <nav class="navbar">
             <ul>
                 <li><a href="#services">Serviços</a></li>
@@ -21,49 +21,63 @@
     </header>
 
     <main>
-        <div class="rede-sociais">
-            <img src="./assets/whatzapp.jpg" class="whatzapp" href="#whatapp">
-            <img src="./assets/facebook.jpg" class="facebook" href="#facebook">
-            <img src="./assets/instagram.jpeg" class="instagram" href="instagram">
-        </div>   
-        <section id="services" class="section">
+
+        <section class="hidden">
+            <div class="rede-sociais">
+                <img src="./assets/whatzapp.jpg" class="whatzapp" href="#whatapp">
+                <img src="./assets/facebook.jpg" class="facebook" href="#facebook">
+                <img src="./assets/instagram.jpeg" class="instagram" href="instagram">
+            </div>
+        </section>
+
+        <section id="services" class="hidden">
             <h2>Nossos Serviços</h2>
-            <div class="services-container">
-                <img src="./assets/solar 2.jpg" class="solar">
-                <div class="service">
+            <div id="services-container">
+                <div id="box" class="hidden">
+                    <img src="./assets/img-instalacao.jpg" class="expor" />
                     <h3>Instalações Elétricas</h3>
-                    <p>Realizamos instalações elétricas residenciais e comerciais com segurança e 
+                    <p>Realizamos instalações elétricas residenciais e comerciais com segurança e
                         eficiência e trabalhamos com instalação de placas solares.</p>
                 </div>
-                <div class="service">
+                <div id="box" class="hidden">
+                    <img src="./assets/img-residencial.jpg" class="expor" />
                     <h3>Manutenção</h3>
                     <p>Oferecemos manutenção preventiva e corretiva para garantir o funcionamento dos seus sistemas.</p>
                 </div>
-                <div class="service">
+                <div id="box" class="hidden">
+                    <img src="./assets/img-projetos.jpg" class="expor" />
                     <h3>Projetos</h3>
                     <p>Desenvolvemos projetos elétricos personalizados para atender às suas necessidades.</p>
                 </div>
-                <div class="service">
+                <div id="box" class="hidden">
+                    <img src="./assets/img-solar.png" class="expor" />
                     <h3>Energia Solar</h3>
                     <p>Desenvolvemos projetos adquado para cada cliente do residencial ao comercial,
                         com eficência e qualidade.</p>
                 </div>
             </div>
-            <img src="./assets/eletricista.jpg" class="eletricista">
-            <img src="./assets/solar 1.jpg" class="eletrica">
-           
         </section>
 
-        <section id="about" class="sobre">
+        <section id="sobre" class="hidden">
             <h2>Sobre Nós</h2>
             <p>Somos uma empresa especializada em serviços elétricos com mais de 10 anos de experiência no mercado.
-                Nossa missão é oferecer soluções seguras e de alta qualidade para nossos clientes, 
+                Nossa missão é oferecer soluções seguras e de alta qualidade para nossos clientes,
                 buscando sempre melhores soluções sustentáveis.</p>
         </section>
 
-        <section id="contact" >
+        <section id="contact" class="hidden">
+            <div class="fater">
+                <div>
+                    <img src="./assets/eletricista.jpg" id="eletricista" class="son">
+                </div>
+                <div>
+                    <img src="./assets/solar 1.jpg" id="eletrica" class="son">
+                </div>
+            </div>
+
             <h2>Contato</h2>
-            <form class="contact-form" action="https://formcarry.com/s/DkqwZombB9Y" method="POST" enctype="multipart/form-data">
+            <form class="contact-form" action="https://formcarry.com/s/DkqwZombB9Y" method="POST"
+                enctype="multipart/form-data">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name" required>
 
@@ -79,11 +93,11 @@
     </main>
 
     <footer class="footer">
-        <p>&copy; 2024 Elétrica J.P. Todos os direitos reservados.</p>
+        <p>&copy; 2025 JP Eletro Solar Todos os direitos reservados.</p>
+        <p>desenvolvido por <a>EJBJDEV</a></p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 
 </html>
-
