@@ -12,37 +12,76 @@ body {
     width: 100%;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(to right, #056eb4, #f0f321);
+    background: black;
     color: #efeff7;
     padding: 1rem 0;
     text-align: center;
 }
 
-.header h1{
-    font-size: 50px;
+.logo{
+    width: 90%px;
+    height: 150px;
 }
+
 .rede-sociais{
    display: flex;
-   align-items: start;
+   align-items: center;
+   
 }
 .whatzapp{
   position: fixed;
-  width: 50px;
+  width: 40px;
+  margin: 60px 0 0 20px;
+  mix-blend-mode: multiply;
+  cursor: pointer;
 }
 
 .facebook{
     position: fixed;
-    width: 50px;
-}
-.instagram{
-    position: fixed;
-  width: 50px;
-}
- 
-.expor{
-    max-width: 30vw;
+    width: 60px;
+    margin: 60px 0 0 70px;
+    mix-blend-mode: multiply;
+    cursor: pointer;
 }
 
+.instagram{
+    position: fixed;
+    width: 55px;
+    margin: 60px 0 0 135px;
+    mix-blend-mode: multiply;
+    cursor: pointer;
+}
+
+.instagram:hover{
+    width: 70px;
+}
+
+.facebook:hover{
+    width: 80px;
+}
+
+.whatzapp:hover{
+    width: 70px;
+}
+ 
+.expor-instalacao{
+    max-width: 90%;
+}
+.expor-residencial{
+    max-width: 90%;
+}
+.expor-projetos{
+    max-width: 90%;
+}
+.expor-solar{
+    max-width: 90%;
+}
+
+#videos{
+    position: absolute;
+    margin: -890px 0 0 800px;
+    width: 30vw;
+}
 #eletrica{
     display: flex;
     width: 350px;
@@ -65,7 +104,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to right, #056eb4, #f0f321);
+    background: linear-gradient(to right, #000508, rgb(221, 145, 5));
     margin: 0;
 }
 
@@ -94,12 +133,17 @@ p {
 }
 
 #services{
-    margin: 100px;
+    text-align: center;
+    padding: 5px;
+    max-width: 50%;
+    
 }
 #services-container {
     display: grid;
-    justify-content: end;
+    grid-template-columns: auto auto;
     flex-wrap: wrap; 
+    justify-content: start;
+
 }
 
 #box {
@@ -108,16 +152,24 @@ p {
     border-radius: 5px;
     padding: 10px;
     margin: 1rem;
-    width: 50%;
+    width: 1 fr;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: grid;
-    grid-template-columns: auto;
-    justify-content: end;
     
 }
+#map{
+    width: 550px;
+}
+#loja-fisica{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 50px;
+}
 #sobre {
+    background: linear-gradient(to right, #000508, rgb(221, 145, 5));
     padding: 2rem;
     text-align: center;
+    color: white
 }
 .service h3 {
     color: #333;
@@ -134,7 +186,7 @@ p {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: linear-gradient(to right, #056eb4, #f0f321);
+    background: linear-gradient(to right, #000508, rgb(221, 145, 5));
     color: white;
     position: relative;
     width: 100%;
@@ -160,7 +212,7 @@ form input, form textarea, form button {
 }
 
 form button {
-    background: linear-gradient(to right, #056eb4, #f0f321);
+    background: linear-gradient(to right, #000508, rgb(221, 145, 5));
     color: white;
     border: none;
     cursor: pointer;
