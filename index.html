@@ -9,11 +9,12 @@
 
 <body>
 
-    <header class="header">
+    <header class="header" id="homer">
         <img src="./assets/logo.jpg" class="logo" />
         <nav class="navbar">
             <ul>
                 <li><a href="#services">Serviços</a></li>
+                <li><a href="#loja-fisica">Loja física</a></li>
                 <li><a href="#about">Sobre Nós</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
@@ -59,16 +60,18 @@
         </section>
 
         <section class="hidden" id="videos">
-            <video src="./assets/video-jp.mp4" autoplay muted loop></video>
+            <video src="./assets/video-jp.mp4" autoplay muted loop class="video-jp"></video>
         </section>
 
         <section class="hidden" id="loja-fisica">
             <div id="box" class="hidden">
-                <img src="./assets/loja-fisica.jpg" class="expor-solar" />
+                <img src="./assets/loja-fisica.jpg" class="logo-fisica" />
                 <h3>Loja Física</h3>
-                <p>Aqui você encontra varios mateirias para sua obra com preço justo e qualidade,
-                    também trabalhos com ferramentas para eletricista, fio, led, arandelas, lampadas led
-                    e muito mais...</p>
+                <p>Aqui você encontra varios materias para sua obra com preço justo e qualidade,
+                    também trabalhos com ferramentas para eletricista, fios, arandelas, lampadas led
+                    e muito mais...
+                </p>
+                <p><b>Endereço: Avenida do Cristo Redentor n° 348 Pontal-sp</b></p>
             </div>
             <div id="box">
                 <iframe id="map"
@@ -92,7 +95,7 @@
                     <img src="./assets/eletricista.jpg" id="eletricista" class="son">
                 </div>
                 <div>
-                    <img src="./assets/solar 1.jpg" id="eletrica" class="son">
+                    <video src="./assets/video-jp.mp4" autoplay muted loop id="video-footer"></video>
                 </div>
             </div>
 
@@ -115,7 +118,8 @@
 
     <footer class="footer">
         <p>&copy; 2025 JP Eletro Solar Todos os direitos reservados.</p>
-        <p>desenvolvido por <a>EJBJDEV</a></p>
+        <p><a>Politica de Privacidade</a> | <a>Termos e Condições</a> | <a href="#homer">Homer</a></p>
+        <p>desenvolvido por <a href="www.linkedin.com/in/edvaldo-programadorfrontend">EJBJDEV</a></p>
     </footer>
 
     <script src="script.js"></script>
