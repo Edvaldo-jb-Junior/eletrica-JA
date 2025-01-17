@@ -1,5 +1,19 @@
 
-document.getElementById('contact-form').addEventListener('submit', function(event) {
+const myObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if(entry.inIntersecting){
+            entry.target.classList.add("show")
+        } else {
+            entry.target.classList.remove("show")
+        }
+    })
+})
+
+const elements = document.querySelectorAll(".hidden")
+
+elements.forEach((element) => myObserver.observe(element))
+
+document.getElementById("contact-form").addEventListe("submit", function(event) {
     event.preventDefault();
 
     const name = document.getElementById('name').value;
@@ -13,3 +27,4 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         alert('Por favor, preencha todos os campos.');
     }
 });
+
