@@ -317,12 +317,21 @@ form button:hover {
     }
 }
 @media (max-width: 860px){
-    .solar{
-        height: 42vh;
+    #videos{
+        margin-left: 430px;
     }
-    .eletricista{
-        max-width: 80px;
-        margin-top: 194px;
+    .video-jp{
+        width: 370px;
+    }
+    #loja-fisica{
+        grid-template-columns: 410px 410px;
+        gap: 2px;
+    }
+    #map{
+        width: 360px; 
+    }
+    .logo-fisica{
+        width: 360px;
     }
 }
 @media (max-width: 820px){
@@ -383,62 +392,113 @@ form button:hover {
     .sobre{
         margin-bottom: 50px;
     }
-    
+    footer{
+        line-height: 10px;
+    }
 }
 @media (max-width: 550px){
-   
-    
+    #videos{
+        margin-left: 265px;
+    }
+   .video-jp{
+    width: 250px;
+    margin:80px 0 0 10px;
+   }
+   #box {
+    line-height: 15px;
+    font-size: 10px;
+    padding: 1px;
+   }
+    #loja-fisica{
+        grid-template-columns: 270px;
+        justify-content: start;
+    }
+    .logo-fisica{
+        width: 230;
+        height: 150px;
+    }
+    #map{
+        width:230px;
+    }
 }
 @media (max-width: 450px){
-    .service{
-        width: auto;
+    #loja-fisica{
+        grid-template-columns: 410px;
+        margin-bottom: 400px
     }
-    p{
-        font-size: 15px;
+    #videos{
+        margin: 660px 0 0 100px;
     }
-    .sobre{
-        margin-bottom: 30px;
+    .video-jp{
+        width: 210px;
     }
-    .eletricista{
-        margin-top: 280px;
+    .logo-fisica{
+        width: 370; 
+    }
+    #map{
+        width: 370px;
+    }
+    footer{
+        line-height: 10px;
     }
 }
 @media (max-width: 420px){
-    .solar{
-        height: 90vh;
-        margin-top: 2px;
+    #loja-fisica{
+        grid-template-columns: auto;
+        flex-wrap: wrap; 
+        justify-content: start;
+        gap: 1px;
+        margin-bottom: 400px;
     }
-    .eletricista{
-        margin-top: 280px;
+    .logo-fisica{
+        width: 360;  
+    }
+    #map{
+        width:360px;
+    }
+    #videos{
+        margin: 653px 0 0 100px
+    }
+    .video-jp{
+        width: 220px;
+        z-index: -1;
+    }
+    footer{
+        line-height: 10px;
     }
 }
 @media (max-width: 390px){
-    .solar{
-        height: 96vh;
+    #loja-fisica{
+        grid-template-columns: 380px;
     }
-    .eletricista{
-        margin-top: 280px;
+    .logo-fisica{
+        width: 340;  
+    }
+    #map{
+        width:340px;
     }
 }
 @media (max-width: 375px){
-    .solar{
-        height: 122vh;
-    }
-    .eletricista{
-        margin-top: 300px;
-    }
+   #videos{
+    margin-left: 65px;
+   }
 }
 @media (max-width: 362px){
-    .solar{
-        height: 110vh;
+    #loja-fisica{
+        grid-template-columns: 355px;
     }
-    .eletricista{
-        margin-top: 300px;
+    .logo-fisica{
+        width: 315px;   
+    }
+    #map{
+        width: 315px;
+    }
+    #videos{
+        margin-left: 60px;
     }
 }
 @media (max-width: 350px){
-    .solar{
-        height: 100vh;
-        margin-top: 2px;
+    #loja-fisica{
+        grid-template-columns: 200px;;
     }
 }
