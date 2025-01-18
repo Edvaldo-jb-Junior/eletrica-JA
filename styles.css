@@ -157,7 +157,7 @@ p {
 #box {
     background: #f4f4f4;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
     margin: 1rem;
     width: 1 fr;
