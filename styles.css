@@ -39,6 +39,7 @@ body {
 .rede-sociais{
    display: flex;
    align-items: center;
+
 }
 
 .whatzapp{
@@ -47,6 +48,7 @@ body {
   margin: 60px 0 0 20px;
   mix-blend-mode: multiply;
   cursor: pointer;
+  z-index: 2;
 }
 
 .facebook{
@@ -55,6 +57,7 @@ body {
     margin: 60px 0 0 70px;
     mix-blend-mode: multiply;
     cursor: pointer;
+    z-index: 2;
 }
 
 .instagram{
@@ -63,6 +66,7 @@ body {
     margin: 60px 0 0 135px;
     mix-blend-mode: multiply;
     cursor: pointer;
+    z-index: 2;
 }
 
 .instagram:hover{
