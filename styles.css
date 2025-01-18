@@ -2,14 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.2;
     box-sizing: border-box;
 
 }
-
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
 
 .show{
-    opacity: 1;
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 1s;
+
 }
 
 .header {
@@ -19,7 +28,7 @@ body {
     flex-direction: column;
     background: black;
     color: #efeff7;
-    padding: 1rem 0;
+   
     text-align: center;
 }
 
@@ -160,7 +169,7 @@ p {
     display: grid;
     grid-template-columns: 600px 600px;
     gap: 50px;
-    padding-left: 35px;
+    
     background: linear-gradient(to right, #4f5d66, rgb(221, 145, 5));
 }
 #sobre {
@@ -181,14 +190,14 @@ p {
     display: flex;
     width: 150px;
     position: absolute;
-    margin: 100px 0 0 30px;
+    margin: 30px 0 0 30px;
     mix-blend-mode: multiply;
 }
 #video-footer{
     display: flex;
     width: 180px;
     position: absolute;
-    margin: 90px 0 0 1050px;
+    margin: 20px 0 0 1050px;
     mix-blend-mode: multiply;
 }
 #contact{
@@ -198,7 +207,7 @@ p {
 
 footer {
     text-align: center;
-    padding: 1rem 0;
+    padding: 2px 1px;
     background: linear-gradient(to right, #000508, rgb(221, 145, 5));
     color: white;
     position: relative;
@@ -254,7 +263,10 @@ form button:hover {
         margin: 10px;
     }
     #videos{
-        margin-left: 520px;
+        margin: -820px 0 0 530px;
+    }
+    .video-jp{
+        width: 450px;
     }
     p{
         font-size: 15px;
@@ -445,7 +457,7 @@ form button:hover {
         grid-template-columns: auto;
         flex-wrap: wrap; 
         justify-content: start;
-        gap: 1px;
+        gap: 0;
         margin-bottom: 400px;
     }
     .logo-fisica{
@@ -497,6 +509,6 @@ form button:hover {
 }
 @media (max-width: 350px){
     #loja-fisica{
-        grid-template-columns: 200px;;
+        grid-template-columns: 350px;
     }
 }
