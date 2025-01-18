@@ -181,11 +181,12 @@ p {
     grid-template-columns: 600px 600px;
     gap: 50px;    
     background: linear-gradient(to right, #4f5d66, rgb(221, 145, 5));
+    padding: 4px 4px;
 }
 
 #sobre {
     background: linear-gradient(to right, #000508, rgb(221, 145, 5));
-    padding: 2rem;
+    padding: 4px 4px;
     text-align: center;
     color: white
 }
