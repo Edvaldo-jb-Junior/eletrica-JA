@@ -186,13 +186,15 @@ p {
     gap: 50px;    
     background: linear-gradient(to right, #4f5d66, rgb(221, 145, 5));
     padding: 4px 4px;
+    width: 100%;
 }
 
 #sobre {
     background: linear-gradient(to right, #000508, rgb(221, 145, 5));
     padding: 4px 4px;
     text-align: center;
-    color: white
+    color: white;
+    width: 100%;
 }
 
 .service h3 {
@@ -469,7 +471,7 @@ form button:hover {
         margin-bottom: 400px
     }
     #videos{
-        margin: 660px 0 0 100px;
+        margin: 670px 0 0 90px;
     }
     .video-jp{
         width: 210px;
@@ -500,7 +502,7 @@ form button:hover {
         width:360px;
     }
     #videos{
-        margin: 653px 0 0 100px
+        margin: 660px 0 0 90px
     }
     .video-jp{
         width: 220px;
