@@ -39,13 +39,12 @@ body {
 .rede-sociais{
    display: flex;
    align-items: center;
-
 }
 
 .whatzapp{
   position: fixed;
-  width: 40px;
-  margin: 60px 0 0 20px;
+  width: 41px;
+  margin: 32px 0 0 20px;
   mix-blend-mode: multiply;
   cursor: pointer;
   z-index: 2;
@@ -54,7 +53,7 @@ body {
 .facebook{
     position: fixed;
     width: 60px;
-    margin: 60px 0 0 70px;
+    margin: 22px 0 0 70px;
     mix-blend-mode: multiply;
     cursor: pointer;
     z-index: 2;
@@ -63,7 +62,7 @@ body {
 .instagram{
     position: fixed;
     width: 55px;
-    margin: 60px 0 0 135px;
+    margin: 25px 0 0 135px;
     mix-blend-mode: multiply;
     cursor: pointer;
     z-index: 2;
@@ -107,6 +106,7 @@ body {
     position: absolute;
     margin: -870px 0 0 800px;
     width: 30vw;
+    border-radius: 10px;
 }
 
 .video-jp{
@@ -173,11 +173,13 @@ p {
 #map{
     width: 550px;
     height: 500px;
+    border-radius: 10px;
 }
 
 .logo-fisica{
     width: 550px;
     height: 250px;
+    border-radius: 10px;
 }
 
 #loja-fisica{
@@ -220,6 +222,7 @@ p {
     position: absolute;
     margin: 20px 0 0 1050px;
     mix-blend-mode: multiply;
+    border-radius: 10px;
 }
 
 #contact{
