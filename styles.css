@@ -273,6 +273,24 @@ form button:hover {
     background: linear-gradient(to right, #020468, #6e7002);
 }
 
+@media (max-width: 1700px){
+    #videos{
+        margin-left: 1000px;
+    }
+    #video-footer{
+        margin-left: 1300px;
+    }
+}
+
+@media (max-width: 1500px){
+    #videos{
+        margin-left: 850px;
+    }
+    #video-footer{
+        margin-left: 1100px;
+    }
+}
+
 @media (max-width: 1280px){
     #videos{
         margin-left: 700px
@@ -422,10 +440,12 @@ form button:hover {
         display: grid;
         grid-template-columns: 400px;
         gap: 5px;
+        justify-content: center;
     }
     #map{
         width: 350px;
         height: 300px;
+        
     }
     .logo-fisica{
         width: 350px;
@@ -466,6 +486,15 @@ form button:hover {
 }
 
 @media (max-width: 450px){
+    .whatzapp{
+        margin-top: 14px;
+    }
+    .facebook{
+        margin-top: 6px;
+    }
+    .instagram{
+        margin-top: 8px;
+    }
     #services-container {
         grid-template-columns: auto;
     }
