@@ -22,7 +22,7 @@ document.getElementById("contact-form").addEventListe("submit", function(event) 
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
-    if (name && email && message) {
+    if (name && email && telefone && message) {
         alert(`Obrigado, ${name}! Sua mensagem foi enviada com sucesso.`);
         document.getElementById('contact-form').reset();
     } else {

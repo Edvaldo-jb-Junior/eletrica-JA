@@ -62,7 +62,7 @@ body {
 .instagram{
     position: fixed;
     width: 55px;
-    margin: 25px 0 0 135px;
+    margin: 26px 0 0 135px;
     mix-blend-mode: multiply;
     cursor: pointer;
     z-index: 2;
