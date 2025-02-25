@@ -564,6 +564,15 @@ form button:hover {
 }
 
 @media (max-width: 362px){
+    .whatzapp{
+        margin-top: 8px;
+    }
+    .facebook{
+        margin-top: -2px;
+    }
+    .instagram{
+        margin-top: 2px;
+    }
     #loja-fisica{
         grid-template-columns: 355px;
     }
