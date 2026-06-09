@@ -16,7 +16,7 @@ Landing Page para um profissional para apresentação de serviços elétricos re
 ## 📋 Sobre o Projeto
 
 O **Elétrica JA** é um site institucional desenvolvido para divulgar serviços elétricos profissionais, oferecendo uma experiência moderna,
-responsiva e intuitiva para clientes que buscam soluções em instalações, manutenção e projetos elétricos.
+responsiva e intuitiva para clientes que buscam soluções em instalações, manutenção e projetos elétricos, o projeto conta com Google Maps integrado.
 
 O projeto foi construído com foco em:
 
@@ -156,11 +156,8 @@ Características implementadas:
 
 - [ ] Formulário de contato funcional
 - [ ] Integração com WhatsApp API
-- [ ] Animações avançadas
 - [ ] Sistema de orçamento online
-- [ ] Área administrativa
 - [ ] SEO avançado
-- [ ] Google Maps integrado
 - [ ] Modo escuro
 
 ---
