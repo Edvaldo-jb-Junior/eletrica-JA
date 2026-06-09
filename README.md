@@ -174,9 +174,6 @@ Desenvolvedor Front-end e Criador do Projeto
 GitHub:
 https://github.com/Edvaldo-jb-Junior
 
-Portfolio:
-https://eddypbr.com/
-
 ---
 
 ## 📄 Licença
